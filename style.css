@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 100vh;
+    background-image:url(https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=600) ;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+/* background-repeat: no-repeat; */
+}
+.box{
+   
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 6px solid rgb(0, 255, 34) ;
+    margin: 20px;
+    padding: 20px;
+    background-size: cover;
+    transition: all ease-in-out 0.6s;
+    border-radius: 100%;
+}
+.box:first-child{
+    background-image: url(https://source.unsplash.com/random/900×700/?games);
+
+}
+.box:nth-child(2){
+    background-image: url(https://source.unsplash.com/random/900×700/?guns);
+}
+.box:nth-child(3){
+    background-image: url(https://source.unsplash.com/random/900×700/?gamingcomputer);
+}
+.box:nth-child(4){
+    background-image: url(https://source.unsplash.com/random/900×700/?cars);
+}
+.box:nth-child(5){
+    background-image: url(https://source.unsplash.com/random/900×700/?bikes);
+}
+.box:nth-child(6){
+    background-image: url(https://source.unsplash.com/random/900×700/?buses);
+}
+.box:nth-child(7){
+    background-image: url(https://source.unsplash.com/random/900×700/?computer);
+}
+.box:last-child{
+background-image: url(https://source.unsplash.com/random/900×700/?gta);
+}
+.box:hover{
+    transform: scale(120%);
+}
+.trapezoid {
+	border-bottom: 50px solid #555;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 125px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
